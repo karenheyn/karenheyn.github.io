@@ -1,16 +1,16 @@
 import React from "react";
-// import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
+import "./nav.css";
+const Nav = () => {
   return (
-    <div className='bg'>
-      {/* <Header></Header> */}
-      <main>
-        <div className='title-container'>
-          <h1>Karen Heyn</h1>
-          <h2>Software Developer</h2>
+    <div>
+      <div className='hamburger'>
+        <div className='lines'>
+          <div className='line'></div>
+          <div className='line'></div>
+          <div className='line'></div>
         </div>
+      </div>
+      <div className='menu-container'>
         <div className='option1'>
           <div className='link'>projects</div>
         </div>
@@ -20,9 +20,9 @@ function App() {
         <div className='option3'>
           <div className='link'>about</div>
         </div>
-      </main>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Nav;
