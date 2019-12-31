@@ -1,28 +1,44 @@
-.paper-div .paper {
-    margin-top: 5%;
-    background: rgba(165, 165, 159, .2);
-}
-
-.paper-div .MuiTypography-h5 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.paper-div .MuiTypography-body1 {
-    font-family: 'Montserrat', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.paper-div {
+.drawer-container {
     position: relative;
+    height: 100vh;
 }
 
-.MuiPaper-elevation1 {
+.side-drawer {
+    width: 100vw;
+    height: 85vh;
+    background: rgba(238, 239, 236, 0.708);
+    border-top: 1px solid black;
     position: absolute;
-    left: 0;
+    bottom: 0;
+    overflow: scroll;
 }
 
-.project-square {
-    min-height: 10em
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.project {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+
+}
+
+.project h3 {
+    z-index: 1;
+    padding: 10px 0;
+    position: relative;
+    top: 20%;
+    color: black;
+    text-align: center;
+    background-color: rgba(238, 239, 236, 0.735);
+}
+
+.project .project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
