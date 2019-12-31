@@ -25,10 +25,14 @@ const Nav = () => {
           </Link>
         </div>
         <div className='option2'>
-          <div className='link'>contact</div>
+          <Link to='/contact' className='link'>
+            Contact
+          </Link>
         </div>
         <div className='option3'>
-          <div className='link'>about</div>
+          <Link to='/about' className='link'>
+            About
+          </Link>
         </div>
       </div>
     </div>
