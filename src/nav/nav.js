@@ -1,5 +1,6 @@
 import React from "react";
 import "./nav.css";
+import { Link } from "react-router-dom";
 
 const toggleNavClasses = () => {
   let burgerIcon = document.getElementById("burger");
@@ -19,7 +20,9 @@ const Nav = () => {
       </div>
       <div className='menu-container' id='menu-container'>
         <div className='option1'>
-          <div className='link'>projects</div>
+          <Link to='/projects' className='link'>
+            Projects
+          </Link>
         </div>
         <div className='option2'>
           <div className='link'>contact</div>
