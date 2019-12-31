@@ -1,16 +1,23 @@
 import React from "react";
 import "./nav.css";
+
+const toggleNavClasses = () => {
+  let burgerIcon = document.getElementById("burger");
+  burgerIcon.classList.toggle("is-active");
+  let mobileMenu = document.getElementById("menu-container");
+  mobileMenu.classList.toggle("opened");
+};
 const Nav = () => {
   return (
     <div>
-      <div className='hamburger'>
+      <div className='hamburger' id='burger' onClick={toggleNavClasses}>
         <div className='lines'>
           <div className='line'></div>
           <div className='line'></div>
           <div className='line'></div>
         </div>
       </div>
-      <div className='menu-container'>
+      <div className='menu-container' id='menu-container'>
         <div className='option1'>
           <div className='link'>projects</div>
         </div>
