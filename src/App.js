@@ -6,6 +6,7 @@ import Home from "./home/home";
 import About from "./about/about";
 import Contact from "./contact/contact";
 import { Route } from "react-router-dom";
+
 function App() {
   return (
     <div className='bg'>

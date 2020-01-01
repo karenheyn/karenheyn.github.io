@@ -91,7 +91,7 @@ a:active {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .menu-container {
         display: block;
         position: absolute;
