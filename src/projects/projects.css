@@ -1,34 +1,37 @@
 .drawer-container {
-  position: relative;
-  height: 100vh;
+    position: relative;
+    height: 100vh;
 }
 
 .side-drawer {
-  width: 100vw;
-  height: 85vh;
-  background: rgba(238, 239, 236, 0.708);
-  border-top: 1px solid black;
-  position: absolute;
-  bottom: 0;
-  overflow: scroll;
+    width: 100vw;
+    height: 85vh;
+    background: rgba(238, 239, 236, 0.708);
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    overflow: scroll;
 }
 
 .projects-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 @media (min-width: 1025px) {
-  .side-drawer {
-    width: 50vw;
-    height: 100vh;
-    border-right: 1px solid black;
-    border-top: none;
-    overflow: scroll;
-    z-index: 1;
-  }
+    .side-drawer {
+        width: 50vw;
+        height: 100vh;
+        border-right: 1px solid black;
+        border-top: none;
+        z-index: 1;
+    }
+
+    .side-drawer h2 {
+        animation: none;
+    }
 }

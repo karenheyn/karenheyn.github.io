@@ -1,0 +1,21 @@
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media (min-width: 1025px) {
+    .links {
+        position: absolute;
+        left: 0;
+    }
+}

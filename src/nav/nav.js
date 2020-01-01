@@ -30,8 +30,8 @@ const Nav = () => {
           </Link>
         </div>
         <div className='option3'>
-          <Link to='/about' className='link'>
-            About
+          <Link to='/resume' className='link'>
+            Resumé
           </Link>
         </div>
       </div>

@@ -4,7 +4,22 @@ import "./contact.css";
 function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <div className='links'>
+        <a
+          href='mailto:karenheyn@gmail.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <i class='fa fa-envelope'></i>Email me
+        </a>
+        <a
+          href='https://www.linkedin.com/in/karenheyn/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <i class='fa fa-linkedin'></i> Connect on linkedin
+        </a>
+      </div>
     </div>
   );
 }
