@@ -6,7 +6,7 @@ import delicious from "../assets/delicious.png";
 import componentLibrary from "../assets/component-library.png";
 const projects = [
   {
-    name: "MakeupBomb",
+    name: "Makeup Bomb",
     img: makeupBomb,
     github: "https://github.com/karenheyn/MakeupBomb",
     site: "https://quizzical-goldstine-b0be04.netlify.com/"

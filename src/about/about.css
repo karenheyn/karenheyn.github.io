@@ -1,0 +1,12 @@
+.paper h1 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.paper a {
+    display: block;
+}
+
+.paper p {
+    font-family: 'Montserrat', sans-serif;
+}
