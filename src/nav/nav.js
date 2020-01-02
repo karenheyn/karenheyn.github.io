@@ -8,6 +8,12 @@ const toggleNavClasses = () => {
   let mobileMenu = document.getElementById("menu-container");
   mobileMenu.classList.toggle("opened");
 };
+const removeNavClasses = () => {
+  let burgerIcon = document.getElementById("burger");
+  burgerIcon.classList.remove("is-active");
+  let mobileMenu = document.getElementById("menu-container");
+  mobileMenu.classList.remove("opened");
+};
 const Nav = () => {
   return (
     <div>
@@ -20,17 +26,17 @@ const Nav = () => {
       </div>
       <div className='menu-container' id='menu-container'>
         <div className='option1'>
-          <Link to='/projects' className='link' onClick={toggleNavClasses}>
+          <Link to='/projects' className='link' onClick={removeNavClasses}>
             Projects
           </Link>
         </div>
         <div className='option2'>
-          <Link to='/contact' className='link' onClick={toggleNavClasses}>
+          <Link to='/contact' className='link' onClick={removeNavClasses}>
             Contact
           </Link>
         </div>
         <div className='option3'>
-          <Link to='/resume' className='link' onClick={toggleNavClasses}>
+          <Link to='/resume' className='link' onClick={removeNavClasses}>
             Resumé
           </Link>
         </div>
