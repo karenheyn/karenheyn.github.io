@@ -7,21 +7,25 @@
     overflow: auto;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 
 }
 
 .paper h1 {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 10px;
 }
 
 .paper a {
     display: block;
+    padding-bottom: 10px;
+    ;
 }
 
 .paper p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding: 4px;
 }
 
 @media (max-width: 360px) {
@@ -30,4 +34,10 @@
     }
 }
 
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+    .paper {
+        position: absolute;
+        width: 50%;
+        left: 20px;
+    }
+}
