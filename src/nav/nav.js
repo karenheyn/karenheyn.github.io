@@ -20,17 +20,17 @@ const Nav = () => {
       </div>
       <div className='menu-container' id='menu-container'>
         <div className='option1'>
-          <Link to='/projects' className='link'>
+          <Link to='/projects' className='link' onClick={toggleNavClasses}>
             Projects
           </Link>
         </div>
         <div className='option2'>
-          <Link to='/contact' className='link'>
+          <Link to='/contact' className='link' onClick={toggleNavClasses}>
             Contact
           </Link>
         </div>
         <div className='option3'>
-          <Link to='/resume' className='link'>
+          <Link to='/resume' className='link' onClick={toggleNavClasses}>
             Resumé
           </Link>
         </div>

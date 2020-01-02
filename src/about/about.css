@@ -1,3 +1,15 @@
+.paper {
+    background: rgba(238, 239, 236, 0.708);
+    width: 93%;
+    margin: 20 auto;
+    position: relative;
+    top: 80px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .paper h1 {
     text-align: center;
     padding-top: 35px;
@@ -9,4 +21,13 @@
 
 .paper p {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
+
+@media (max-width: 360px) {
+    .paper {
+        height: 470px;
+    }
+}
+
+@media (min-width: 1025px) {}
