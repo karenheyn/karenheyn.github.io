@@ -4,6 +4,8 @@ import makeupBomb from "../assets/makeup_bomb.png";
 import trumpTrivia from "../assets/trump-trivia.png";
 import delicious from "../assets/delicious.png";
 import componentLibrary from "../assets/component-library.png";
+import makeupAPI from "../assets/Json_data.png";
+import formValidator from "../assets/form_validator.png";
 const projects = [
   {
     name: "Makeup Bomb",
@@ -29,6 +31,18 @@ const projects = [
     github: "https://github.com/karenheyn/react-component-library",
     site:
       "https://elegant-mcclintock-aa9611.netlify.com/?path=/story/thumbnail--thumbnail-inline-large"
+  },
+  {
+    name: "MakeupInfo API",
+    img: makeupAPI,
+    github: "https://github.com/karenheyn/MakeupAPI",
+    site: "https://makeupinfo.herokuapp.com/product"
+  },
+  {
+    name: "React form validator",
+    img: formValidator,
+    github: "https://github.com/karenheyn/form-validation-react",
+    site: "https://condescending-bartik-65ba64.netlify.com/"
   }
 ];
 const Card = () => {
