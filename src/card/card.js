@@ -8,6 +8,7 @@ import componentLibrary from "../assets/component-library.png";
 import makeupAPI from "../assets/Json_data.png";
 import formValidator from "../assets/form_validator.png";
 import unsplashSearch from "../assets/unsplash-search.png";
+import cotripper from "../assets/cotripper.png";
 
 const projects = [
   {
@@ -21,6 +22,12 @@ const projects = [
     img: unsplashSearch,
     github: "https://github.com/karenheyn/unsplash-image-search",
     site: "https://xenodochial-heisenberg-163f30.netlify.app/",
+  },
+  {
+    name: "Cotripper App",
+    img: cotripper,
+    github: "https://github.com/CotripperPlatform/CoTrip",
+    site: "https://cotripper.netlify.app/home",
   },
   {
     name: "Makeup Bomb",
