@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 import makeupBomb from "../assets/makeup_bomb.png";
-import trumpTrivia from "../assets/trump-trivia.png";
+// import trumpTrivia from "../assets/trump-trivia.png";
 import delicious from "../assets/delicious.png";
 import betterBackstories from "../assets/better_backstories.png";
 import componentLibrary from "../assets/component-library.png";
@@ -29,18 +29,12 @@ const projects = [
     github: "https://github.com/CotripperPlatform/CoTrip",
     site: "https://cotripper.netlify.app/home",
   },
-  {
-    name: "Makeup Bomb",
-    img: makeupBomb,
-    github: "https://github.com/karenheyn/MakeupBomb",
-    site: "https://quizzical-goldstine-b0be04.netlify.com/",
-  },
-  {
-    name: "Trump Trivia",
-    img: trumpTrivia,
-    github: "https://github.com/karenheyn/Trump-Trivia",
-    site: "https://karenheyn.github.io/Trump-Trivia/",
-  },
+  // {
+  //   name: "Trump Trivia",
+  //   img: trumpTrivia,
+  //   github: "https://github.com/karenheyn/Trump-Trivia",
+  //   site: "https://karenheyn.github.io/Trump-Trivia/",
+  // },
   {
     name: "DeliCious",
     img: delicious,
@@ -59,6 +53,12 @@ const projects = [
     img: makeupAPI,
     github: "https://github.com/karenheyn/MakeupAPI",
     site: "https://makeupinfo.herokuapp.com/product",
+  },
+  {
+    name: "Makeup Bomb",
+    img: makeupBomb,
+    github: "https://github.com/karenheyn/MakeupBomb",
+    site: "https://quizzical-goldstine-b0be04.netlify.com/",
   },
   {
     name: "React form validator",
